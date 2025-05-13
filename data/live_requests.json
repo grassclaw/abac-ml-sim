@@ -25,5 +25,23 @@
       "headlessDetected": 0
     },
     "decision": "ALLOW"
+  },
+  {
+    "timestamp": "2025-05-13T07:54:12.882942",
+    "input": {
+      "requestCount": 250,
+      "cookieEnabled": 1,
+      "headlessDetected": 0
+    },
+    "decision": "ALLOW"
+  },
+  {
+    "timestamp": "2025-05-13T07:54:29.017658",
+    "input": {
+      "requestCount": 250,
+      "cookieEnabled": 1,
+      "headlessDetected": 1
+    },
+    "decision": "BLOCK"
   }
 ]
