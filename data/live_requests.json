@@ -1,0 +1,29 @@
+[
+  {
+    "timestamp": "2025-05-13T05:06:06.212716",
+    "input": {
+      "requestCount": 250,
+      "cookieEnabled": 0,
+      "headlessDetected": 1
+    },
+    "decision": "BLOCK"
+  },
+  {
+    "timestamp": "2025-05-13T06:04:14.421936",
+    "input": {
+      "requestCount": 250,
+      "cookieEnabled": 1,
+      "headlessDetected": 1
+    },
+    "decision": "BLOCK"
+  },
+  {
+    "timestamp": "2025-05-13T06:05:34.752180",
+    "input": {
+      "requestCount": 250,
+      "cookieEnabled": 1,
+      "headlessDetected": 0
+    },
+    "decision": "ALLOW"
+  }
+]

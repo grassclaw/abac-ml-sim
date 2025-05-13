@@ -1,0 +1,7 @@
+version: "3"
+services:
+  abac:
+    build: .
+    volumes:
+      - .:/app
+    command: bash scripts/run_all.sh

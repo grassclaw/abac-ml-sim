@@ -1,0 +1,40 @@
+[
+  {
+    "timestamp": "2025-05-13T05:15:08.448832",
+    "previous_policy": {
+      "rule_id": "rule_001",
+      "conditions": {
+        "headlessDetected": true,
+        "requestCount": "> 100"
+      },
+      "action": "BLOCK"
+    },
+    "updated_policy": {
+      "rule_id": "rule_002",
+      "conditions": {
+        "headlessDetected": true,
+        "geoLocation": "CN"
+      },
+      "action": "BLOCK"
+    }
+  },
+  {
+    "timestamp": "2025-05-13T05:43:17.338221",
+    "previous_policy": {
+      "rule_id": "rule_001",
+      "conditions": {
+        "headlessDetected": true,
+        "requestCount": "> 100"
+      },
+      "action": "BLOCK"
+    },
+    "updated_policy": {
+      "rule_id": "rule_002",
+      "conditions": {
+        "headlessDetected": true,
+        "geoLocation": "CN"
+      },
+      "action": "BLOCK"
+    }
+  }
+]

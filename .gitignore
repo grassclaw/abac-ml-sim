@@ -2,6 +2,31 @@
 __pycache__/
 *.py[cod]
 *$py.class
+models/
+*.pkl
+*.pyc
+*.log
+*.csv
+
+# python venv
+abac/
+
+
+# Data science specific
+.ipynb_checkpoints/
+*.ipynb
+*.h5
+*.hdf5
+*.joblib
+*.npy
+*.npz
+wandb/
+mlruns/
+tensorboard/
+lightning_logs/
+checkpoints/
+runs/
+logs/
 
 # C extensions
 *.so
